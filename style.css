@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    position: absolute;
+}
+.slide {
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    margin-right: 0px;
+    position: relative;
+}
+.nube3{
+    z-index: 8;
+}
+.rotado img {
+    transform: scaleX(-1);
+}
+.principal-text h1{
+    font-weight: 100;
+    color: #491622 !important;
+    font-size: 25px!important;
+    font-family: sans-serif!important;
+    position: absolute!important;
+    top: 10%!important;
+    left: 50%!important;
+    z-index: 6!important;
+}
+.layer {
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    margin-right: 0px;
+    position: absolute;
+    z-index: 1;
+}
+.montana1 {
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    margin-right: 0px;
+    position: absolute;
+    z-index: 1;
+}
+.montana2 {
+    z-index: 2;
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    position:absolute;
+    margin-right: 0px;
+}
+.montana3 {
+    z-index: 3;
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    position:absolute;
+    margin-right: 0px;
+}
+.montana4 {
+    z-index: 4;
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    position:absolute;
+    margin-right: 0px;
+}
+.montana5 {
+    z-index: 5;
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    position:absolute;
+    margin-right: 0px;
+}
+.montana6 {
+    z-index: 6;
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    position:absolute;
+    margin-right: 0px;
+}
+.arboles {
+    z-index: 7;
+    height: 100vh;
+    width: 150vh;
+    max-width: 1000px;
+    position:absolute;
+    margin-right: 0px;
+}
+/* .slide:nth-child(1){
+    background-color: lightblue;
+}
+.slide:nth-child(2){
+    background-color: lightblue;
+
+} */
+
+
+.wrapper{
+    display: flex;
+    width: 700vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    background-image: url(IMG/Fondo\ color.png);
+    background-repeat: repeat-x;
+    background-size: contain; 
+}
+.container{
+    height: 100vw;
+    width: 100vh;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.nubes{
+    position: absolute;
+    /* top: 160px; */
+    height: 100vh;
+    width: -webkit-fill-available;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.l1{
+    top: 250px;
+    /* 
+    background-image: url(IMG/Arbolesparallax.png);
+    */
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+.l2 img{
+    top:80px;
+    max-width: 175px;
+    left: 300px;
+    position: relative;
+    filter: brigness(1.1);
+    mix-blend-mode: multiply;
+}
+/*
+.l3{
+    background-image: url(3.png);
+    text-align: center;
+    padding-top: 10%;
+} */
+
+a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 48px;
+    letter-spacing: 4px;
+}
+
+span{font-weight: bold;}
+
+h1 { 
+    color: white;
+    font-size: 48px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    z-index: 6;
+    /* transform: translate(-50%, -50%); */
+    /* animation: slideleft 1s ease-in 1s 1 normal both; */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* 
+@keyframes slideleft{
+    from {transform: translateX(300px);}
+    to {transform: translateX(500);}
+} */
